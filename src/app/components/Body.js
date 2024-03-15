@@ -2,6 +2,7 @@
 import lottie from "lottie-web";
 import React, { useRef, useEffect } from "react";
 import { useTypewriter, Cursor } from "react-simple-typewriter";
+import Link from "next/link";
 
 function Body() {
   const animationData = require("../../../public/assets/projects.json");
@@ -20,6 +21,15 @@ function Body() {
       animationData: animationData,
     });
   }, [animationData]);
+
+    const scrollToContact = (e) => {
+    e.preventDefault();
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section className="py-8">
       <div className="container px-4 mx-auto">
@@ -39,9 +49,11 @@ function Body() {
                 Learn More
               </button>
 
-              <button className="bg-gray-300 text-gray-700 px-4 py-1 rounded hover:bg-gray-400">
-                Contact Me
-              </button>
+               <Link legacyBehavior href="#contact">
+              <a className="bg-gray-300 text-gray-700 px-4 py-1 rounded mr-4 hover:bg-gray-400" onClick={scrollToContact}>
+              Contact Me
+              </a>
+               </Link>
               </div>
               <p className="text-blue-500 text-small font-normal mt-2 ">Coding | Learnings | Lifestyle</p>
               {/* WRITE ABOUT YOUR PERSONAL DATA  */}
