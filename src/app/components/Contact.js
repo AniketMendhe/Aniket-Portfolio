@@ -9,7 +9,7 @@ function Contact() {
         window.location.href = `mailto:loser.dev891@gmail.com?subject=${formData.subject}&body=${formData.body},${formData.message},(${formData.email})`;
     };
     return (
-        <div className="h-screen flex relative flex-col text-center md:text-left md:text-row max-w-7xl justify-evenly mx-auto items-center">
+        <div id="contact" className="h-screen flex relative flex-col text-center md:text-left md:text-row max-w-7xl justify-evenly mx-auto items-center">
             <h3 className="tracking-[20px] text-center uppercase text-gray-500 text-2xl">
                 Contact
             </h3>
