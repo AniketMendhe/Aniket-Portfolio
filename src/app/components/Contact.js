@@ -4,9 +4,12 @@ import { MapPinIcon, EnvelopeIcon } from "@heroicons/react/24/solid"
 import { useForm } from "react-hook-form";
 
 function Contact() {
-    const { register, handleSubmit } = useForm();
+      const { register, handleSubmit } = useForm();
+
     const onSubmit = (formData) => {
-        window.location.href = `mailto:loser.dev891@gmail.com?subject=${formData.subject}&body=${formData.body},${formData.message},(${formData.email})`;
+        const { subject, body, message, email } = formData;
+        const mailtoLink = `mailto:loser.dev891@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body + '\n' + message + '\n' + email)}`;
+        window.location.href = mailtoLink;
     };
     return (
         <div id="contact" className="h-screen flex relative flex-col text-center md:text-left md:text-row max-w-7xl justify-evenly mx-auto items-center">
