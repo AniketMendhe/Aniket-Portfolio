@@ -25,7 +25,7 @@ function Header() {
 
         {/* Right Part */}
         <div className="flex space-x-3 items-center">
-          <button className="hidden md:inline-block text-white bg-blue-500 px-4 py-2 rounded-full hover:bg-blue-600">
+          <button className="hidden md:inline-block text-white bg-blue-500 px-4 py-2 rounded-full hover:bg-blue-600" onClick={()=>router.push("www.linkedin.com/in/aniketmendhe")}>
             Linkedin
           </button>
  <button className="border cursor-pointer border-gray-500 px-4 py-2 text-white rounded-full bg-slate-500 hover:bg-slate-800" onClick={()=>router.push("https://github.com/AniketMendhe")}>
