@@ -32,7 +32,7 @@ To get a local copy up and running, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/professional-portfolio.git
+   git clone https://github.com/AniketMendhe/Portfolio-next.js.git
 
 Memory updated
 Here’s a sample README.md file for your GitHub project, "Professional Portfolio":
