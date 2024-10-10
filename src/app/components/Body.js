@@ -58,14 +58,9 @@ function Body() {
               <p className="text-blue-500 text-small font-normal mt-2 ">Coding | Learnings | Lifestyle</p>
               {/* WRITE ABOUT YOUR PERSONAL DATA  */}
 
-              <h1 className="text-slate-400 text-xl">ABOUT: <br> Aniket Shankar Mendhe
-Based in Nagpur, I am a dedicated full stack developer with expertise in the MERN stack, JavaScript, React.js, Node.js, and WordPress. Currently studying at RTMNU University, I am passionate about creating dynamic and responsive web applications. My technical skills are complemented by my love for gaming, where I engage in competitive titles like BGMI, fostering my strategic thinking and teamwork abilities.
+              <h1 className="text-slate-400 text-xl"><p>ABOUT: Aniket Shankar Mendhe Based in Nagpur, I am a dedicated full stack developer with expertise in the MERN stack, JavaScript, React.js, Node.js, and WordPress.  Currently studying at RTMNU University, I am passionate about creating dynamic and responsive web applications.  My technical skills are complemented by my love for gaming, where I engage in competitive titles like BGMI, fostering my strategic thinking and teamwork abilities.</p>
 
-In addition to my development skills, I am a district-level football champion, which has instilled in me the values of discipline, leadership, and collaboration. I enjoy playing kho-kho and kabaddi, and I find strategic depth in chess, all of which enhance my problem-solving skills and resilience.
-
-I am eager to leverage my technical expertise and diverse interests in a professional setting, contributing to innovative projects while continuously learning and growing in the tech field.
-
-Skills: MERN Stack · Web Development · WordPress Design · JavaScript · HTML · React.js · Express.js · Cascading Style Sheets (CSS) · Node.js · MongoDB · mongoose</h1>
+<p>SKILLS: MERN Stack &middot; Web Development &middot; WordPress Design &middot; JavaScript &middot; HTML &middot; React.js &middot; Express.js &middot; Cascading Style Sheets (CSS) &middot; Node.js &middot; MongoDB &middot; mongoose</p></h1>
 
           </div>
 
