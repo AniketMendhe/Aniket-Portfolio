@@ -41,7 +41,7 @@ function Body() {
               <Cursor />
             </h1>
             <p className="text-white text-xl md:text-2xl mb-3 mt-2">
-              I am A Frontend Developer who shares programmming knowledge with
+              I am A Full-Stack Developer who shares programmming knowledge with
               the community
             </p>
             <div>
