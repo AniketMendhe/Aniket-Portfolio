@@ -58,7 +58,7 @@ function Body() {
               <p className="text-blue-500 text-small font-normal mt-2 ">Coding | Learnings | Lifestyle</p>
               {/* WRITE ABOUT YOUR PERSONAL DATA  */}
 
-              <h1 className="text-slate-400 text-xl">Aniket Shankar Mendhe
+              <h1 className="text-slate-400 text-xl">ABOUT: <br> Aniket Shankar Mendhe
 Based in Nagpur, I am a dedicated full stack developer with expertise in the MERN stack, JavaScript, React.js, Node.js, and WordPress. Currently studying at RTMNU University, I am passionate about creating dynamic and responsive web applications. My technical skills are complemented by my love for gaming, where I engage in competitive titles like BGMI, fostering my strategic thinking and teamwork abilities.
 
 In addition to my development skills, I am a district-level football champion, which has instilled in me the values of discipline, leadership, and collaboration. I enjoy playing kho-kho and kabaddi, and I find strategic depth in chess, all of which enhance my problem-solving skills and resilience.
