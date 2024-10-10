@@ -44,7 +44,7 @@ Contact me through the contact section or follow me on Instagram for updates!
 Contact
 @Email: loser.dev891@gmail.com
 
-@Instagram: @loser.dev
+@Instagram: https://www.instagram.com/loser.dev/
 
 Contributing
 Contributions are welcome! If you have suggestions for improvements, please open an issue or submit a pull request.
