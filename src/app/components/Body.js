@@ -56,9 +56,9 @@ function Body() {
                </Link>
               </div>
               <p className="text-blue-500 text-small font-normal mt-2 ">Coding | Learnings | Lifestyle</p>
-              {<p>ABOUT:<br> Aniket Shankar Mendhe Based in Nagpur, I am a dedicated full stack developer with expertise in the MERN stack, JavaScript, React.js, Node.js, and WordPress.  Currently studying at RTMNU University, I am passionate about creating dynamic and responsive web applications.  My technical skills are complemented by my love for gaming, where I engage in competitive titles like BGMI, fostering my strategic thinking and teamwork abilities.</p>}
+              { }
 
-              <h1 className="text-slate-400 text-xl"><p>SKILLS:<br> MERN Stack &middot; Web Development &middot; WordPress Design &middot; JavaScript &middot; HTML &middot; React.js &middot; Express.js &middot; Cascading Style Sheets (CSS) &middot; Node.js &middot; MongoDB &middot; mongoose</p> </h1>
+              <h1 className="text-slate-400 text-xl">Aniket Shankar Mendhe is a dynamic and versatile web developer with a strong command of the MERN stack, blending both frontend creativity and backend expertise. Skilled in JavaScript, React.js, and WordPress design, Aniket creates seamless digital experiences. Currently pursuing a BTech in IT at RTMNU University, Nagpur, Maharashtra, he is passionate about staying at the cutting edge of web development and delivering high-impact solutions. </h1>
 
           </div>
 
