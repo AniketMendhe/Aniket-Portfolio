@@ -24,7 +24,7 @@ To get a local copy up and running, follow these steps:
    ```bash
    git clone https://github.com/AniketMendhe/Portfolio-next.js.git
 2.Navigate into the project directory:
-  # cd professional-portfolio
+  # cd Portfolio-next.js
 
 3.Install dependencies using Yarn:
  # yarn install
@@ -43,6 +43,7 @@ Contact me through the contact section or follow me on Instagram for updates!
 
 Contact
 @Email: loser.dev891@gmail.com
+
 @Instagram: @loser.dev
 
 Contributing
